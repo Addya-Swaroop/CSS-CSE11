@@ -1,0 +1,34 @@
+h2{
+    color:aqua;
+    font-size:x-large;
+    font-family: cursive;
+}
+p{
+    color:brown;
+     text-align: center;
+    background-color: antiquewhite;
+}
+/* em, rem, % ,smaller and larger */
+.par{
+    color:rgb(94, 236, 5);
+   
+}
+#jk{
+    color:rgb(25, 164, 164);
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    color: chartreuse;
+    background-color: rgb(217, 43, 43);
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin: 100px;
+    border: 10px solid rgb(63, 8, 8);
+
+}
+/* 
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name" */
