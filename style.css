@@ -1,23 +1,22 @@
-/* h2{
+h2{
     color:aqua;
     font-size:x-large;
     font-family: cursive;
 }
-/* p{
+p{
     color:brown;
      text-align: center;
     background-color: antiquewhite;
-} */
-/* em, rem, % ,smaller and larger */
-/* .par{
+} 
+ em, rem, % ,smaller and larger */
+.par{
     color:rgb(94, 236, 5);
    
 }
 #jk{
     color:rgb(25, 164, 164);
-} */ 
-
-/* div{
+}  
+.ro{
     height: 200px;
     width: 200px;
     color: chartreuse;
@@ -28,15 +27,15 @@
     margin: 100px;
     border: 10px solid rgb(63, 8, 8);
 
-} */
+}
 
-/* .jk{
+.jk{
     display: block;
 }
 .jk2{
     display: inline;
-} */
- /* h1{
+}
+h1{
     color: black;
  }
 
@@ -52,8 +51,8 @@
 .bl{
     display: inline-block;
     padding: 10px;
-    width: auto;
-    height: auto;
+    width: 210px;
+    height: 300px;
 }
 
 .bl1{
@@ -64,13 +63,13 @@
 }
 .bl3{
     background-color: cornflowerblue;
-} */
+}
 .img{
-    height: 200px;
-    width: 100px;
+    size-adjust: initial
+    align-items: ;
     
 }
-]
+
 
 /* 
 
