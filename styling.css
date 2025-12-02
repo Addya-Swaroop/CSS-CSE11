@@ -34,5 +34,5 @@ div{
 .item3{
     order: -1;
     flex-grow: 2;
-    align-self:flex-end;
+    
 }
