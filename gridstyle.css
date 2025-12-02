@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    height: 500px;
+    width: 1000px;
+    background-color: coral;
+    border: 2px solid blue;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4,1fr );
+    grid-template-rows: repeat(3,1fr);
+    /* /* grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer"; */
+    column-gap: 10px; */
+    row-gap: 10px;
+    /* gap: pehlr row gap fir coloumn gap dena to alag alag lag jayega nahii to ek value do dono me lag jaega  */
+    /* justify-items: center;
+    align-items: center; */
+    place-items: center;
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+
+}
+/* .item1{
+    grid-area: header;
+
+}
+.item2{
+    grid-area: main;
+    
+}
+.item3{
+    grid-area: sidebar;
+    
+}
+.item4{
+    grid-area: footer;
+    
+} */
+/* grid trmplate columns : columnm ginta hai jitne banana chaho 
+grid template rows : bana bhi sakte hai aur nahibhi agar column banane ke baad bhi item reh jaynge to rows me aa jaenge  */
