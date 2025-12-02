@@ -11,9 +11,11 @@
     column-gap: 10px; */
     row-gap: 10px;
     /* gap: pehlr row gap fir coloumn gap dena to alag alag lag jayega nahii to ek value do dono me lag jaega  */
-    /* justify-items: center;
-    align-items: center; */
-    place-items: center;
+    justify-items: center;
+    align-items: center;
+    /* place-items: center; */
+    justify-content: space-between;
+    align-content: stretch;
 }
 
 .item{
