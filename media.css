@@ -1,0 +1,42 @@
+
+/* @media(max-width; 768px){
+    p{
+        font-size: 1000px;
+    }
+} */
+/* @media(orientation: landscape){
+    body{
+        background: lightblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+} */
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: chartreuse;
+}
+@media(min-width:768px){
+    .box{background: rgb(160, 14, 14);}
+    
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+advantages ;
+workd accross ddevice
+sves screen space on small devices
+improve user experience
+reduces bounce rate 
+
+challenges;
+requires carefull design fro diffrent screen size
+sometimes needs javascript
+more testing required
