@@ -5,17 +5,21 @@
     background-color: coral;
     border: 2px solid blue;
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    grid-template-columns: repeat(4,1fr );
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,100px );
+    grid-template-rows: repeat(3,100px);
     /* /* grid-template-areas: "header header header header" "main main . sidebar" "footer footer footer footer"; */
     column-gap: 10px; */
     row-gap: 10px;
-    /* gap: pehlr row gap fir coloumn gap dena to alag alag lag jayega nahii to ek value do dono me lag jaega  */
-    justify-items: center;
-    align-items: center;
+    /* gap: pehlr row gap fir coloumn gap dena to alag alag lag jayega nahii to ek value do dono me lag jaega 
+    justify-items: center;           
+    /* justify karta hai horoizontal editing */
+    /* align-items: center; */
+    /* align karta hai vertical editing*/
     /* place-items: center; */
     justify-content: space-between;
-    align-content: stretch;
+    /* align-content: space-around; */ */
+    /* grid-auto-columns: 100px; */
+    grid-auto-flow: row;
 }
 
 .item{
@@ -26,11 +30,13 @@
     align-content: center;
 
 }
-/* .item1{
-    grid-area: header;
+.item1{
+    /* grid-area: header; */
+    grid-column: 5/6;
+    grid-row:  3/5;
 
 }
-.item2{
+/* .item2{
     grid-area: main;
     
 }
