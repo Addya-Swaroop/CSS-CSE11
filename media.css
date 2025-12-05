@@ -1,15 +1,12 @@
 
-/* @media(max-width; 768px){
-    p{
-        font-size: 1000px;
-    }
-} */
+
 /* @media(orientation: landscape){
     body{
         background: lightblue;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 } */
+ 
  .box{
     width: 100%;
     height: 100px;
@@ -19,7 +16,7 @@
     align-content: center;
  }
 
- @media(min-width: 768px){
+ @media(min-width: 768px) {
 .box{
     width: 100%;
     height: 100px;
@@ -29,24 +26,61 @@
     align-content: center;
     
 }
-.body{
-    background-color: antiquewhite;
-}
  }
+/* .body{
+    background-color: antiquewhite;
+}  */
+ /* } */
 /* @media(min-width:768px){
     .box{background: rgb(160, 14, 14);}
     
 } */
-li{
-    list-style-type: none;
-    text-decoration: none;
 
-}
-nav ul{
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    background: #e7a5a5;
+    padding: 1rem
+}
+.logo{
+    color: azure;
+    font-size: 1.5rem;}
+.menu{
+    background: #444;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+
+}
+.menu a{
+    color: azure;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+}
+.hamburger{
+    font-size: 2rem;
+    color: white;ive
+    cursor: pointer;
 }
 
+
+
+@media(min-width; 768px){
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        width: auto;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+
+    
 
 /* advantages ;
 workd accross ddevice
@@ -58,3 +92,7 @@ challenges;
 requires carefull design fro diffrent screen size
 sometimes needs javascript
 more testing required */
+
+
+
+/* mobile ke liye hamburger menu ko display block aur defaut menu ko display none  */
